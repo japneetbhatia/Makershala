@@ -1,0 +1,358 @@
+body {
+  box-sizing: border-box;
+  overflow-x: hidden;
+}
+
+* {
+  margin: 0;
+}
+
+.container {
+  background-color: #f3f7fc;
+  width: 100vw;
+}
+
+.navbar-section {
+  background-color: #6e07c7;
+  color: #ffffff;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  font-family: "Roboto", sans-serif;
+}
+
+.navbar-section-top {
+  width: 100%;
+  height: 52px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  color: #000;
+  font-weight: bold;
+  background-color: #ffcb2a;
+}
+
+.navbar-section-top p {
+  margin-left: 50px;
+}
+.nav-span {
+  color: #0157ac;
+}
+.nav-icon {
+  width: 40px;
+}
+.nav-top-icon {
+  width: 30px;
+}
+.nav-top-icon-container {
+  position: relative;
+  left: 250px;
+}
+.nav-bottom-items {
+  width: 760px;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  cursor: default;
+  margin-left: 100px;
+}
+.nav-links {
+  font-size: 21px;
+  text-align: center;
+  list-style: none;
+  line-height: 25px;
+}
+.navbar-section-bottom {
+  display: flex;
+  align-items: center;
+}
+.link-span {
+  display: block;
+  font-size: 13px;
+  font-weight: bold;
+  text-transform: uppercase;
+  color: #ffcb2a;
+}
+.active {
+  color: #ffcb2a;
+}
+.logo {
+  margin: 0 20px;
+}
+.signIn-button {
+  background-color: #fa8f04;
+  border: none;
+  border-radius: 10px;
+  box-shadow: 0 0.4rem #ca6111;
+  color: #ffffff;
+  font-size: 1.5rem;
+  font-family: "Nunito Sans", sans-serif;
+  height: 54px;
+  width: 9rem;
+  position: relative;
+  left: 70px;
+  right: 5px;
+  cursor: pointer;
+}
+
+.title {
+  display: flex column;
+  justify-content: center;
+  width: 734px;
+  margin: 90px auto;
+  text-align: center;
+}
+.title-text {
+  font-family: "Rubik", sans-serif;
+  font-style: normal;
+  font-weight: 500;
+  font-size: 36px;
+  line-height: 43px;
+  margin: 0;
+}
+.detail {
+  font-family: "Roboto", sans-serif;
+  font-size: 21px;
+  margin-top: 10px;
+  line-height: 25px;
+}
+
+::-webkit-scrollbar {
+  display: none;
+}
+.cards-container {
+  display: flex;
+  flex-direction: row;
+  flex-wrap: wrap;
+  align-items: flex-start;
+  justify-content: space-between;
+  filter: drop-shadow(0px 19px 32px rgba(0, 26, 255, 0.08));
+  margin: 0 auto 150px;
+  height: 1613px;
+  width: 1192px;
+}
+.competition-card {
+  background-color: #ffffff;
+  border-radius: 37px;
+  width: 370px;
+  height: 493px;
+  position: static;
+  left: 0;
+  top: 0;
+  overflow: hidden;
+  filter: drop-shadow(0px 19px 32px rgba(0, 26, 255, 0.08));
+}
+.card-img {
+  height: 252px;
+  width: 370px;
+  overflow: hidden;
+}
+.card-details {
+  font-family: "Roboto", sans-serif;
+  font-weight: 500;
+  width: 370px;
+  height: 252px;
+}
+.card-title {
+  color: #000000;
+  font-size: 22px;
+  margin: 18px 22px 5px;
+}
+.card-text {
+  color: rgba(0, 0, 0, 0.5);
+  font-weight: bold;
+  font-size: 14px;
+  margin: 3px 22px;
+  line-height: 24px;
+}
+.card-icons {
+  position: relative;
+  top: 3px;
+  margin-right: 8px;
+  width: 16px;
+}
+.tag {
+  display: flex;
+  text-align: center;
+  justify-content: center;
+  align-items: center;
+  position: absolute;
+  left: 204px;
+}
+.tag-text {
+  color: #ffffff;
+  font-family: "Roboto", sans-serif;
+  font-weight: 400;
+  font-size: 14px;
+  margin: 0 8px;
+  line-height: 16.41px;
+  position: absolute;
+}
+.tag-icon {
+  position: relative;
+  margin-right: 5px;
+  top: 1px;
+}
+.button {
+  background-color: #fa8f04;
+  border: none;
+  box-shadow: 0 0.2rem #ca6111;
+  border-radius: 10px;
+  font-family: "Nunito Sans", sans-serif;
+  font-size: 18px;
+  font-weight: 900;
+  color: #ffffff;
+  height: 42px;
+  line-height: 25px;
+  text-align: center;
+  width: 173px;
+  cursor: pointer;
+  margin: 5px 99px;
+}
+
+footer {
+  background-repeat: no-repeat;
+  background-image: url("images/footer.svg");
+  background-size: cover;
+  color: #ffffff;
+  font-family: "Inter", sans-serif;
+  display: flex;
+  justify-content: center;
+  align-items: flex-end;
+}
+.footer-queries {
+  font-family: "Inter", sans-serif;
+  font-weight: 500;
+  width: 1065px;
+  text-align: justify;
+  margin: 150px 0;
+  line-height: 21.78px;
+}
+.query-title {
+  font-size: 18px;
+  font-style: normal;
+  font-weight: 700;
+  margin-bottom: 0;
+  line-height: 21.78px;
+}
+.footer-queries p {
+  margin: 0;
+}
+.footer-nav {
+  position: relative;
+  margin-top: 30px;
+  width: 590px;
+  height: 182px;
+  left: 400px;
+}
+.links-container {
+  display: flex;
+  font-family: "DM Sans", sans-serif;
+  font-style: normal;
+  font-weight: normal;
+  font-size: 15px;
+  margin-top: 150px;
+  line-height: 20px;
+}
+.link {
+  color: #ffffff;
+  margin-right: 30px;
+  text-decoration: none;
+}
+.footer-logo {
+  position: relative;
+  top: 200px;
+}
+.social {
+  margin-left: 390px;
+}
+.social-media-icon {
+  margin-left: 51px;
+}
+table.footer-table {
+  border-collapse: collapse;
+  font-weight: 400;
+  text-align: left;
+  width: 670px;
+  border-width: 0;
+  border-color: #ffffff;
+  border-style: solid;
+  margin-top: 50px;
+}
+table.footer-table td,
+table.footer-table th {
+  border-width: 0;
+  border-color: #ffffff;
+  border-style: solid;
+  padding: 15px;
+  cursor: default;
+}
+table.footer-table thead {
+  color: #f2c94c;
+}
+
+.star-1 {
+  position: absolute;
+  left: 360px;
+  top: 420.35px;
+}
+.star-2 {
+  position: absolute;
+  left: 151.18px;
+  top: 248.61px;
+}
+.star-3 {
+  position: absolute;
+  left: 1440.42px;
+  top: 372px;
+}
+.star-4 {
+  position: absolute;
+  left: 1392px;
+  top: 236px;
+}
+.medal {
+  position: absolute;
+  left: 269.06px;
+  top: 280px;
+}
+.trophy {
+  position: absolute;
+  left: 60.57px;
+  top: 334px;
+}
+.trophy2 {
+  position: absolute;
+  left: 1190.16px;
+  top: 300px;
+}
+.sm-ellipse {
+  position: absolute;
+  left: 1192px;
+  top: 210px;
+}
+.side-ellipse1 {
+  position: absolute;
+  top: 1290px;
+  left: -30px;
+}
+.side-ellipse2 {
+  position: absolute;
+  right: 0;
+  top: 1640px;
+}
+
+@media only screen and (max-width: 1440px) {
+  .container {
+    width: 1440px;
+  }
+  .star-3 {
+    left: 1390px;
+  }
+  .star-4 {
+    left: 1350px;
+  }
+  .star-1 {
+    left: 320px;
+  }
+}
